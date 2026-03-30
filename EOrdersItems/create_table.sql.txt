@@ -1,0 +1,9 @@
+
+CREATE TABLE EOrdersItems (
+	order_item_id int NOT NULL,
+	order_id int NOT NULL,
+	product_id int NOT NULL,
+	quantity int NOT NULL,
+	discount decimal (10, 2) NOT NULL,
+	[rating] [int] NOT NULL,
+ CONSTRAINT PK_EOrdersItems PRIMARY KEY (order_item_id))

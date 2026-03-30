@@ -1,0 +1,7 @@
+CREATE TABLE EOrders (
+	order_id int NOT NULL,
+	customer_id int NOT NULL,
+	order_date date NOT NULL,
+	payment_method varchar(50) NOT NULL,
+	shipping_city varchar(50) NOT NULL,
+ CONSTRAINT PK_EOrders PRIMARY KEY ( order_id))

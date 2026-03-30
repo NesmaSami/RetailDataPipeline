@@ -1,0 +1,7 @@
+BULK INSERT ECustomers
+FROM 'D:\nes\ecommerce project\ECustomers\ECustomers.csv'
+WITH (
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    FIRSTROW = 2
+)
