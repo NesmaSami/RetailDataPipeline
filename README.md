@@ -31,3 +31,25 @@ It includes data cleaning, CSV preparation, creating SQL tables, and importing d
 - Perform statistical analysis in Excel (mean, median, mode, standard deviation, correlation, histograms, scatter plots) for deeper insights
 
 ## Files Structure
+## Files Structure
+
+RetailDataPipeline/
+├── README.md
+├── .gitignore
+├── LICENSE
+├── EProducts/
+│     ├── create_table.sql
+│     ├── bulk_insert.sql
+│     └── EProducts.csv
+├── ECustomers/
+│     ├── create_table.sql
+│     ├── bulk_insert.sql
+│     └── ECustomers.csv
+├── EOrders/
+│     ├── create_table.sql
+│     ├── bulk_insert.sql
+│     └── EOrders.csv
+└── EOrdersItems/
+      ├── create_table.sql
+      ├── bulk_insert.sql
+      └── EOrdersItems.csv
