@@ -1,11 +1,11 @@
 # RetailDataPipeline
-RetailDataPipeline: Complete workflow for handling retail sales data from Excel to SQL with cleaning and import
+RetailDataPipeline:  Retail Data Pipeline & Analytics Project
 # RetailDataPipeline
 
 ## Project Overview
-This project demonstrates the workflow of handling retail sales data from Excel to SQL Server. 
-It includes data cleaning, CSV preparation, creating SQL tables, and importing data using Bulk Insert.
+This project demonstrates an end-to-end workflow for handling retail sales data, starting from Excel and progressing to SQL Server, followed by data analysis and visualization.
 
+It includes data cleaning, CSV preparation, SQL table creation, data import using Bulk Insert, and further analysis to extract business insights.
 ## Tables Included
 - `EProducts` → Product details
 - `EOrdersItems` → Order item details
@@ -26,11 +26,9 @@ It includes data cleaning, CSV preparation, creating SQL tables, and importing d
    - Used Bulk Insert to load CSV files into SQL Server
 
 ## Future Steps
-- Perform data analysis using SQL queries across all tables
-- Create insights and visualizations based on sales and customer data
-- Perform statistical analysis in Excel (mean, median, mode, standard deviation, correlation, histograms, scatter plots) for deeper insights
 
-## Files Structure
+- Build an interactive Power BI dashboard to visualize KPIs and insights
+- Enhance data storytelling and business recommendations
 ## Files Structure
 
 RetailDataPipeline/
