@@ -1,0 +1,3 @@
+SELECT Category, Product_Name
+FROM EProducts
+ORDER BY Category, Product_Name;

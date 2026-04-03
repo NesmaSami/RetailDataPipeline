@@ -1,0 +1,10 @@
+SELECT
+    p.category,
+    SUM((p.price -p.cost_price) * o.quantity - o.discount) AS profit
+FROM EProducts p
+LEFT JOIN EOrdersItems o
+    ON p.product_id = o.product_id
+GROUP BY
+    category
+ORDER BY
+    profit DESC;

@@ -1,0 +1,6 @@
+SELECT 
+	COUNT(order_id) as total_orders,
+	shipping_city
+from EOrders
+group by shipping_city
+order by total_orders DESC

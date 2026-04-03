@@ -1,0 +1,6 @@
+select 
+product_id,
+sum((price-cost_price)/cost_price) as profit_margin
+from EProducts
+GROUP BY PRODUCT_ID
+order by profit_margin DESC

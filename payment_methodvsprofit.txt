@@ -1,0 +1,10 @@
+
+SELECT o.Payment_method,
+       SUM( (p.Price - p.Cost_price - oi.discount) * oi.quantity ) AS TotalProfit
+FROM EOrdersItems oi
+JOIN EProducts p
+  ON oi.Product_id= p.Product_id
+JOIN EOrders o
+  ON oi.Order_id= o.Order_id
+GROUP BY o.Payment_method
+ORDER BY TotalProfit DESC;

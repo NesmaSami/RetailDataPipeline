@@ -1,0 +1,10 @@
+SELECT 
+    FORMAT(order_date, 'MMM') AS month_name,
+    MONTH(order_date) AS month_num,
+    COUNT(*) AS total_orders
+FROM EOrders
+GROUP BY 
+    FORMAT(order_date, 'MMM'),
+    MONTH(order_date)
+ORDER BY 
+    month_num

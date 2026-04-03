@@ -1,0 +1,4 @@
+select product_id,
+cost_price
+from Eproducts
+order by cost_price DESC 
