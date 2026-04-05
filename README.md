@@ -24,11 +24,32 @@ It includes data cleaning, CSV preparation, SQL table creation, data import usin
 3. **SQL Table Creation & Data Import**
    - Created tables with appropriate data types
    - Used Bulk Insert to load CSV files into SQL Server
-
-## Future Steps
-
+4- power bi visualization
 - Build an interactive Power BI dashboard to visualize KPIs and insights
 - Enhance data storytelling and business recommendations
+- - Analyze revenue and profit performance
+- Identify top-performing products
+- Understand customer behavior by age group
+- Evaluate the impact of cost and pricing
+## 📊 Dashboard Features
+- KPIs (Revenue, Profit, Profit Margin, Avg Order Value)
+- Profit distribution (Histogram)
+- Sales by category
+- Product-level performance
+- Customer segmentation (Age Group)
+- Scatter plot (Cost vs Price analysis)
+
+- ## 🔍 Key Insights
+- Electronics category generates the highest revenue
+- A small number of products drive most of the profit
+- Customers aged 45–55 are the most active segment
+- Strong positive relationship between cost and price
+
+## 🛠 Tools Used
+- SQL
+- Excel
+- Power BI
+
 ## Files Structure
 
 RetailDataPipeline/
